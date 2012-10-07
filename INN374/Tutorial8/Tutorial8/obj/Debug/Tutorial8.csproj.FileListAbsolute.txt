@@ -1,0 +1,5 @@
+c:\users\nicholas chia\documents\visual studio 2010\Projects\Tutorial8\Tutorial8\obj\Debug\ResolveAssemblyReference.cache
+c:\users\nicholas chia\documents\visual studio 2010\Projects\Tutorial8\Tutorial8\bin\Tutorial8.dll
+c:\users\nicholas chia\documents\visual studio 2010\Projects\Tutorial8\Tutorial8\bin\Tutorial8.pdb
+c:\users\nicholas chia\documents\visual studio 2010\Projects\Tutorial8\Tutorial8\obj\Debug\Tutorial8.dll
+c:\users\nicholas chia\documents\visual studio 2010\Projects\Tutorial8\Tutorial8\obj\Debug\Tutorial8.pdb

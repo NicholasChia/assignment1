@@ -1,0 +1,5 @@
+c:\users\nicholas chia\documents\visual studio 2010\Projects\BitMobile\BitMobile\bin\BitMobile.dll
+c:\users\nicholas chia\documents\visual studio 2010\Projects\BitMobile\BitMobile\bin\BitMobile.pdb
+c:\users\nicholas chia\documents\visual studio 2010\Projects\BitMobile\BitMobile\obj\Debug\ResolveAssemblyReference.cache
+c:\users\nicholas chia\documents\visual studio 2010\Projects\BitMobile\BitMobile\obj\Debug\BitMobile.dll
+c:\users\nicholas chia\documents\visual studio 2010\Projects\BitMobile\BitMobile\obj\Debug\BitMobile.pdb
