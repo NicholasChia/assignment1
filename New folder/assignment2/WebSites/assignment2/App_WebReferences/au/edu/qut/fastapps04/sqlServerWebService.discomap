@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://fastapps04.qut.edu.au/n7307853/sqlServerDB/sqlServerDB/sqlServerWebService.svc?xsd=xsd2" filename="sqlServerWebService.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://fastapps04.qut.edu.au/n7307853/sqlServerDB/sqlServerDB/sqlServerWebService.svc?xsd=xsd1" filename="sqlServerWebService0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://fastapps04.qut.edu.au/n7307853/sqlServerDB/sqlServerDB/sqlServerWebService.svc?xsd=xsd0" filename="sqlServerWebService1.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://fastapps04.qut.edu.au/n7307853/sqlServerDB/sqlServerDB/sqlServerWebService.svc?disco" filename="sqlServerWebService.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://fastapps04.qut.edu.au/n7307853/sqlServerDB/sqlServerDB/sqlServerWebService.svc?wsdl" filename="sqlServerWebService.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://fastapps04.qut.edu.au/n7307853/sqlServerDB/sqlServerDB/sqlServerWebService.svc?xsd=xsd3" filename="sqlServerWebService2.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

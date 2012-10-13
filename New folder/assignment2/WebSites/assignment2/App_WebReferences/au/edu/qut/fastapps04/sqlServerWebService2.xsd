@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/sqlServerDB" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/sqlServerDB" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfPhonePlans">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PhonePlans" nillable="true" type="tns:PhonePlans" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPhonePlans" nillable="true" type="tns:ArrayOfPhonePlans" />
+  <xs:complexType name="PhonePlans">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Avaliable" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Period" type="xs:int" />
+      <xs:element minOccurs="0" name="PlanCost" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PlanID" type="xs:int" />
+      <xs:element minOccurs="0" name="PlanName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="avaliable" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="period" type="xs:int" />
+      <xs:element minOccurs="0" name="planCost" type="xs:decimal" />
+      <xs:element minOccurs="0" name="planID" type="xs:int" />
+      <xs:element minOccurs="0" name="planName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PhonePlans" nillable="true" type="tns:PhonePlans" />
+  <xs:complexType name="ArrayOfPhoneModels">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PhoneModels" nillable="true" type="tns:PhoneModels" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPhoneModels" nillable="true" type="tns:ArrayOfPhoneModels" />
+  <xs:complexType name="PhoneModels">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PhoneBrand" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhoneCost" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PhoneName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhoneStock" type="xs:int" />
+      <xs:element minOccurs="0" name="PlanID" type="xs:int" />
+      <xs:element minOccurs="0" name="phoneBrand" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="phoneCost" type="xs:decimal" />
+      <xs:element minOccurs="0" name="phoneID" type="xs:int" />
+      <xs:element minOccurs="0" name="phoneModel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="phoneStock" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PhoneModels" nillable="true" type="tns:PhoneModels" />
+  <xs:complexType name="Customer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrentPlan" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CustomerID" type="xs:int" />
+      <xs:element minOccurs="0" name="DOB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Payment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayoutFigure" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ServiceProvider" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sex" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="oCurrentPlan" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Customer" nillable="true" type="tns:Customer" />
+</xs:schema>
